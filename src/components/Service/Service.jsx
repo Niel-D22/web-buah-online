@@ -32,13 +32,11 @@ const Service = () => {console.log(serviceData)
     <div className=' my-16 space-y-4 max-w-300'>
         {/* header section */}
         <div className='text-center max-w-lg mx-auto space-y-2'>
-            <h1  className='text-3xl font-bold text-[#656565]'>Fresh and <span className='text-[#F39c0b]'>Tasty Fruits
+            <h1  data-aos="fade-up"   className='text-3xl font-bold text-[#656565]'>Fresh and <span className='text-[#F39c0b]'>Tasty Fruits
                 </span>{" "}
                 </h1>
-        <p className='text-sm opacity-50'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Ad cupiditate eligendi delectus culpa inventore odit nesciunt 
-            laborum impedit commodi! Velit illo hic adipisci in at molestias doloribus
-             repellat maxime sunt!</p>
+        <p data-aos="fade-up" 
+                     data-aos-delay="300" className='text-sm opacity-50'>Enjoy handpicked, farm-fresh fruits delivered straight to you. Packed with natural flavor and nutrients, our fruits are perfect for your healthy and delicious lifestyle.</p>
         
         </div>
 
@@ -54,8 +52,9 @@ const Service = () => {console.log(serviceData)
                 className=' max-w-[170px] mx-auto
                 hover:scale-110 duration-300 img-shadow2'/>
                 <div className='space-y- w-80 ' >
-                    <h1 className='text-2xl font-bold text-[#F39c0b]'>{titel}</h1>
-                    <p className='text-[#656565]'>{subtitel}</p>
+                    <h1 data-aos="fade-up"  className='text-2xl font-bold text-[#F39c0b]'>{titel}</h1>
+                    <p  
+                    className='text-[#656565]'>{subtitel}</p>
                 </div>
                 </div>
             ))}

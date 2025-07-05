@@ -23,26 +23,25 @@ const Hero = () => {
              min-h-[650px]  "
           >
             {/*text content section */}
-            <div className="text-white mt-[100px] md:mt-0 p-4 space-y-4">
-              <h1
-                className="text-3xl pl-6 md:pl-14
+            <div className="  text-white mt-[100px] md:mt-0 p-4 space-y-4">
+              <h1 data-aos="fade-up" className="text-3xl pl-6 md:pl-14
                 "
               >
                 01_______
               </h1>
-              <h1 className="text-5xl font-bold uppercase text-shadow">
+              <h1 data-aos="fade-up" 
+               data-aos-delay="300"
+               className="text-5xl font-bold uppercase text-shadow">
                A Healty fruits
               </h1>
-              <p className="text-sm">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
-                sunt hic saepe debitis a eius doloremque cumque non, cupiditate
-                minima error voluptatibus eos unde eveniet veritatis. Delectus,
-                quam quos. Minus.
+              <p data-aos="fade-up"  data-aos-delay="500" className="text-sm">
+                Craving something sweet, juicy, and healthy? 🍊
+Orange Mint brings you the best of nature, straight to your door!
               </p>
-              <button className="secondary-button">Buy Now</button>
+              <button data-aos="fade-up"  data-aos-delay="700"  data-aos-offset="0"className="secondary-button">Buy Now</button>
             </div>
             {/*image section */}
-            <div>
+            <div data-aos="zoom-in">
               <img
                 src={OrangeImg}
                 alt="Not found"
@@ -55,7 +54,10 @@ const Hero = () => {
         </div>
 
         {/* bacground besar section */}
-        <h1 className="large-text">Orange</h1>
+        <h1 data-aos="fade"
+          data-aos-delay="600"
+          data-aos-duration="1800"
+        className="large-text">Orange</h1>
 
         {/* sidebar section */}
 
