@@ -4,19 +4,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#F39c0b',  
-        secondary: '#e86f00', 
-        primaryDark: '#d65609',   
-        dark:"#656565"
+        primary: "#F39c0b",
+        secondary: "#e86f00",
+        primaryDark: "#d65609",
+        dark: "#656565",
       },
-      container :{
+      container: {
         center: true,
-        padding:{
-            DEFAULT:"1rem",
-            sm:"2rem",
-        }
-      }
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+        },
+      },
     },
   },
   plugins: [],
-}
+};

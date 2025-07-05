@@ -4,6 +4,9 @@ import Navbar from "../Navbar/Navbar";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
+
+
+
 const Hero = () => {
   const [sidebar, setSidebar] = React.useState(false);
   return (
@@ -28,7 +31,7 @@ const Hero = () => {
                 01_______
               </h1>
               <h1 className="text-5xl font-bold uppercase text-shadow">
-                Buah Yang Sehat
+               A Healty fruits
               </h1>
               <p className="text-sm">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
@@ -36,7 +39,7 @@ const Hero = () => {
                 minima error voluptatibus eos unde eveniet veritatis. Delectus,
                 quam quos. Minus.
               </p>
-              <button className="primary-button">Beli Sekarang</button>
+              <button className="secondary-button">Buy Now</button>
             </div>
             {/*image section */}
             <div>

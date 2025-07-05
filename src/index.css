@@ -12,17 +12,21 @@
 .img-shadow2{
     filter: drop-shadow(40px 50px 25px #300000eb);
 }
+.primary-button{
+    @apply  bg-[#F39c0b] w-full text-white px-4 py-2 rounded-md hover:bg-[#e86f00]
+    duration-300;
+}
 
-    .primary-button{
+    .secondary-button{
         @apply border border-white px-4 py-2 rounded-lg;
  
     }
     .large-text{
         @apply text-center
-         text-[80px]
-        sm:text-[120px] 
-        md:text-[150px]
-         xl:text-[180px]
+         text-[10px]
+        sm:text-[100px] 
+        md:text-[120px]
+         xl:text-[140px]
         text-white
          uppercase 
          font-bold 
@@ -32,5 +36,11 @@
            z-0 ;
    text-shadow: 2px 2px 2px #1128015b;
     }
+.input-style{
+    @apply px-4 py-2 border-[1px] border-gray-400 rounded-md
+}
+
 
 }
+
+
